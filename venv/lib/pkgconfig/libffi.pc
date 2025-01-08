@@ -1,0 +1,11 @@
+prefix=/Users/aditya/Library/CloudStorage/OneDrive-Personal/AIR OneDrive/GenAI/ANN Project - Churn Classification/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/aditya/Library/CloudStorage/OneDrive-Personal/AIR OneDrive/GenAI/ANN Project - Churn Classification/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

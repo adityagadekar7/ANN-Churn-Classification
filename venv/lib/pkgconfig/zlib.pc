@@ -1,0 +1,13 @@
+prefix=/Users/aditya/Library/CloudStorage/OneDrive-Personal/AIR OneDrive/GenAI/ANN Project - Churn Classification/venv
+exec_prefix=/Users/aditya/Library/CloudStorage/OneDrive-Personal/AIR OneDrive/GenAI/ANN Project - Churn Classification/venv
+libdir=/Users/aditya/Library/CloudStorage/OneDrive-Personal/AIR OneDrive/GenAI/ANN Project - Churn Classification/venv/lib
+sharedlibdir=/Users/aditya/Library/CloudStorage/OneDrive-Personal/AIR OneDrive/GenAI/ANN Project - Churn Classification/venv/lib
+includedir=/Users/aditya/Library/CloudStorage/OneDrive-Personal/AIR OneDrive/GenAI/ANN Project - Churn Classification/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
